@@ -13,7 +13,7 @@
   <project path="hardware/qcom/audio-caf/msm8916" name="latvianguy18/hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="pie"/>
 
   <project path="external/sony/boringssl-compat" name="latvianguy18/external_sony_boringssl-compat" remote="github" revision="pie"/>
-  <project path="packages/resources/devicesettings" name="latvianguy18/android_packages_resources_devicesettings" revision="pie"/>
+  <project path="packages/resources/devicesettings" name="latvianguy18/android_packages_resources_devicesettings" revision="lineage-16.0"/>
 
  <!-- arm-eabi-7.2 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github"/>
