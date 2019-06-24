@@ -16,7 +16,7 @@
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
 
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-16.0"/>
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0"/>
 
   <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/j5nlte" name="Galaxy-MSM8916/android_device_samsung_j5nlte" groups="device" remote="Galaxy-MSM8916"/>
