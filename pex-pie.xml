@@ -10,8 +10,6 @@
 
   <project path="vendor/samsung" name="latvianguy18/vendor_samsung" groups="device" remote="github" revision="pie"/>
 
-  <project path="hardware/qcom/audio-caf/msm8916" name="latvianguy18/hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="pie" remote="github"/>
-
   <project path="external/sony/boringssl-compat" name="latvianguy18/external_sony_boringssl-compat" remote="github" revision="pie"/>
   <project path="packages/resources/devicesettings" name="latvianguy18/android_packages_resources_devicesettings" revision="lineage-16.0" remote="github"/>
 
