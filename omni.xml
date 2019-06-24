@@ -6,25 +6,6 @@
            review="review.msm8916.com"
            revision="lineage-16.0" />
 
-  <remove-project name="device/generic/mini-emulator-arm64" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="device/generic/mini-emulator-x86_64" />
-  <remove-project name="device/generic/qemu" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
-  <remove-project name="platform/prebuilts/android-emulator" />
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
-  <remove-project name="platform/prebuilts/go/darwin-x86"/>
-  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-  <remove-project name="platform/prebuilts/libs/libedit" />
-  <remove-project name="platform/sdk" />
-
   <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-16.0"/>
 
