@@ -22,3 +22,4 @@
   <project path="device/samsung/j5nlte" name="Galaxy-MSM8916/android_device_samsung_j5nlte" groups="device" remote="Galaxy-MSM8916"/>
 
 </manifest>
+<!-- NOTE! If you're a beginner at ROM building, don't try Omni ROM! It's very difficult to build. -->
