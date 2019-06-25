@@ -11,41 +11,29 @@
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 
-<!-- Samsung Hardware Repo -->
   <project path="hardware/samsung" name="jenslody/android_hardware_samsung.git" remote="gitlab" revision="lineage-16.0" />
- 
- <!-- Samsung MSM8916 Common Repos -->
+
   <project path="device/samsung/qcom-common" name="jenslody/android_device_samsung_qcom-common.git" remote="gitlab" groups="device" revision="lineage-16.0" />
   <project path="device/samsung/msm8916-common" name="jenslody/android_device_samsung_msm8916-common.git" groups="device" remote="gitlab" revision="lineage-16.0" />
 
- <!-- Galaxy J5 (SM-J500H - j53gxx) || (J500F-G-M-Y - j5lte) || (J500FN - j5nlte) || (J5008 - j5ltechn) -->
   <project path="device/samsung/j5nlte" name="jenslody/android_device_samsung_j5nlte.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j5ltechn" name="jenslody/android_device_samsung_j5ltechn.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j5lte" name="jenslody/android_device_samsung_j5lte.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j53gxx" name="jenslody/android_device_samsung_j53gxx.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j5-common" name="jenslody/android_device_samsung_j5-common.git" groups="device" remote="gitlab" revision="lineage-16.0" />
 
- <!-- (J510FN - j5xnlte) -->
   <project path="device/samsung/j5x-common" name="jenslody/android_device_samsung_j5x-common.git" groups="device" remote="gitlab" revision="lineage-16.0" />
   <project path="device/samsung/j5xnlte" name="jenslody/android_device_samsung_j5xnlte.git" groups="device" remote="gitlab" revision="pie" />
 
-
- <!-- arm-eabi-7.2 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" groups="pdk,linux,arm"  remote="github" revision="master"/>
 
- <!-- Dependencies -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-16.0" />
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
-  
- <!-- Common Samsung MSM8916 Kernel -->
+
   <project path="kernel/samsung/msm8916" name="jenslody/android_kernel_samsung_msm8916.git" remote="gitlab" revision="lineage-16.0-oc"/>
 
- <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
-
- <!-- not build by default, I need it at work -->
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" remote="aosp" revision="master" />
 
 </manifest>
 
