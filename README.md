@@ -1,4 +1,3 @@
 # local_manifests
-Edited local_manifests mainly focused on j5nlte. 
-You shouldn't use these because I make changes that fit my build environment.
-If you get them working, that's great!
+Local manifests for j5nlte specifically. It isn't too hard to add other variants yourself.
+These manifests are updated daily or weekly, either bug fixes or tweaks that make it even more seamless.
