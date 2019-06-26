@@ -21,14 +21,10 @@
   <project path="device/samsung/j5lte" name="jenslody/android_device_samsung_j5lte.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j53gxx" name="jenslody/android_device_samsung_j53gxx.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j5-common" name="jenslody/android_device_samsung_j5-common.git" groups="device" remote="gitlab" revision="lineage-16.0" />
-
-  <project path="device/samsung/j5x-common" name="jenslody/android_device_samsung_j5x-common.git" groups="device" remote="gitlab" revision="lineage-16.0" />
-  <project path="device/samsung/j5xnlte" name="jenslody/android_device_samsung_j5xnlte.git" groups="device" remote="gitlab" revision="pie" />
-
+  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" groups="pdk,linux,arm"  remote="github" revision="master"/>
 
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-16.0" />
-
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
 
   <project path="kernel/samsung/msm8916" name="jenslody/android_kernel_samsung_msm8916.git" remote="gitlab" revision="lineage-16.0-oc"/>
@@ -36,4 +32,3 @@
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
 
 </manifest>
-
