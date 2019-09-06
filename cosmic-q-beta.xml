@@ -10,8 +10,6 @@
 
   <project path="vendor/samsung" name="Resurrection3387/pex_vendor_samsung" groups="device" remote="github" revision="pie"/>
 
-  <project path="packages/resources/devicesettings" name="Resurrection3387/pex_packages_resources_devicesettings" remote="github" revision="pie"/>
-
   <project path="device/samsung/j5-common" name="Resurrection3387/pex_device_samsung_j5-common" groups="device" remote="github" revision="pie"/>
   <project path="device/samsung/j5nlte" name="Resurrection3387/pex_device_samsung_j5nlte" groups="device" remote="github" revision="pie"/>
 
