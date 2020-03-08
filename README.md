@@ -1,7 +1,5 @@
-# Local manifests for Android P (Galaxy J5)
+# Local manifests for Android 9 (Galaxy J5)
 
-j5nlte specifically. It isn't hard to add other variants yourself. These manifests are updated weekly or monthly, either bug fixes or tweaks.
+j5nlte specifically. It isn't hard to add other variants yourself. PRs/issues are accepted!
 
-What's different about this repo than the Galaxy-MSM8916 one? Well, this one is being updated much more frequently. Also, I add new ROM manifests (usually untested).
-
-PRs/issues are accepted!
+Note that since Android 10 is here, this Pie branch will probably never get updated anymore.
