@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <project path="device/samsung/msm8916-common" name="Resurrection3387/device_samsung_msm8916-common" remote="github" revision="ten"/>
+  <project path="device/samsung/qcom-common" name="Resurrection3387/device_samsung_qcom-common" remote="github" revision="ten"/>
+  
+  <project path="hardware/samsung" name="Resurrection3387/hardware_samsung" remote="github" revision="ten"/>
+
+  <project path="vendor/samsung" name="Resurrection3387/vendor_samsung" remote="github" revision="ten"/>
+
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-17.1"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1"/>
+
+  <project path="device/samsung/j5-common" name="Resurrection3387/android_device_samsung_j5-common" remote="github" revision="ten"/>
+  <project path="device/samsung/j5nlte" name="Resurrection3387/android_device_samsung_j5nlte" remote="github" revision="ten"/>
+
+</manifest>
