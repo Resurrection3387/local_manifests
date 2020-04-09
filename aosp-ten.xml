@@ -4,6 +4,8 @@
   <project path="device/samsung/msm8916-common" name="Resurrection3387/device_samsung_msm8916-common" remote="github" revision="ten"/>
   <project path="device/samsung/qcom-common" name="Resurrection3387/device_samsung_qcom-common" remote="github" revision="ten"/>
   
+  <project path="kernel/samsung/msm8916" name="Resurrection3387/kernel_samsung_msm8916" remote="github" revision="ten"/>
+  
   <project path="hardware/samsung" name="Resurrection3387/hardware_samsung" remote="github" revision="ten"/>
 
   <project path="vendor/samsung" name="Resurrection3387/vendor_samsung" remote="github" revision="ten"/>
