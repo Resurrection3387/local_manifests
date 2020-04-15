@@ -12,8 +12,7 @@
 
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-17.1"/>
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1"/>
-
-  <project path="device/samsung/j5-common" name="Resurrection3387/android_device_samsung_j5-common" remote="github" revision="ten"/>
-  <project path="device/samsung/j5nlte" name="Resurrection3387/android_device_samsung_j5nlte" remote="github" revision="ten"/>
+  
+  <project path="device/samsung/j5nlte" name="Resurrection3387/device_samsung_j5nlte" remote="github" revision="ten"/>
 
 </manifest>
